@@ -1,0 +1,142 @@
+html,
+body {
+  background: hsl(30, 38%, 92%);
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+}
+
+.container {
+  max-width: 1440px;
+  margin: auto;
+  padding: 20px 0 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.card {
+  background: hsl(0, 0%, 100%);
+  border-radius: 10px;
+  display: flex;
+}
+
+.card-img,
+.card-body {
+  flex-grow: 1;
+}
+
+.card-img {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.card-body {
+  padding: 10px 30px 30px 30px;
+}
+
+/* DESKTOP */
+@media (min-width: 1440px) {
+  .container {
+    min-height: 100vh;
+  }
+
+  .card {
+    max-width: 600px;
+    flex-direction: row;
+  }
+
+  .card-img,
+  .card-body {
+    width: 50%;
+  }
+
+  .card-img {
+    border-radius: 10px 0 0 10px;
+    background-image: url("../images/image-product-desktop.jpg");
+  }
+}
+
+/* MOBILE */
+@media (min-width: 375px) and (max-width: 1440px) {
+  .card {
+    max-width: 320px;
+    flex-direction: column;
+  }
+
+  .card-img {
+    height: 200px;
+    border-radius: 10px 10px 0 0;
+    background-image: url("../images/image-product-mobile.jpg");
+  }
+}
+
+.button {
+  padding: 14px;
+  font-size: 14px;
+  color: hsl(0, 0%, 100%);
+  background: hsl(158, 36%, 37%);
+  border: none;
+  width: 100%;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: 0.2s all;
+  cursor: pointer;
+}
+.button:hover {
+  background: hsl(158, 36%, 27%);
+}
+.button:active {
+  transform: scale(0.98);
+  background: hsl(158, 36%, 27%);
+}
+
+.title {
+  color: hsl(212, 21%, 14%);
+  font-family: "Fraunces", serif;
+}
+
+.subtitle {
+  text-transform: uppercase;
+  font-weight: lighter;
+}
+
+.subtitle,
+.description {
+  font-size: 14px;
+  color: hsl(228, 12%, 48%);
+}
+
+.prices {
+  margin: 25px 0 25px 0;
+  display: flex;
+  gap: 30px;
+}
+
+.new-price {
+  font-size: 30px;
+  color: hsl(158, 36%, 37%);
+  font-family: "Fraunces", serif;
+}
+
+.old-price {
+  text-decoration: line-through;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  color: hsl(228, 12%, 48%);
+  margin: 8px 0 8px 0;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.bi {
+  margin-right: 2px;
+}
