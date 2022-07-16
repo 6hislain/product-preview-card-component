@@ -89,7 +89,7 @@ Working on this coding challenge; I learnt about media queries in css
 
 I also learned about flexbox
 
-```
+```css
 /* css/style.css line 8 */
 .container {
   max-width: 1440px;
@@ -116,8 +116,8 @@ I am going to try completing more coding challenges on _Frontend Mentor_
 
 ### Useful resources
 
-- [css tricks - flexbox guide](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - this article guided me on how to use flexbox
-- [w3 school - css media queries](https://www.w3schools.com/css/css3_mediaqueries.asp) - this also helped me on media queries
+- [CSS Tricks - flexbox guide](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - this article guided me on how to use flexbox
+- [W3 School - css media queries](https://www.w3schools.com/css/css3_mediaqueries.asp) - this also helped me on media queries
 
 ## Author
 
@@ -127,4 +127,4 @@ I am going to try completing more coding challenges on _Frontend Mentor_
 
 ## Acknowledgments
 
-Thanks to _Kevin Powell_ youtube videos, I started doing _Frontend Mentor_ challenges
+Thanks to [Kevin Powell](https://www.youtube.com/kepowob) youtube videos, I started doing _Frontend Mentor_ challenges
